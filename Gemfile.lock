@@ -1,0 +1,39 @@
+GIT
+  remote: https://github.com/hoxworth/xmpp4r
+  revision: b54f4801ec8bc03bf4eadf5fae7a117fc2ba4266
+  specs:
+    xmpp4r (0.5)
+      nokogiri
+
+PATH
+  remote: .
+  specs:
+    capistrano-jabber (0.1)
+      capistrano-ext (~> 1.2.1)
+
+GEM
+  specs:
+    capistrano (2.14.2)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
+    capistrano-ext (1.2.1)
+      capistrano (>= 1.0.0)
+    highline (1.6.15)
+    net-scp (1.1.0)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.6.6)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    nokogiri (1.5.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  capistrano-jabber!
+  xmpp4r!
