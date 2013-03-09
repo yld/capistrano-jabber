@@ -10,18 +10,17 @@ Note: This gem works only with `capistrano-ext-multistage`.
 
 In your `Gemfile`
 
-  group :development do
-    ...
-    gem 'capistrano'
-    gem 'capistrano-ext'
-    gem 'capistrano-jabber'
-    ...
-  end
+    group :development do
+      ...
+      gem 'capistrano'
+      gem 'capistrano-ext'
+      gem 'capistrano-jabber'
+      ...
+    end
 
 In your `deploy.rb`
 
   require 'capistrano/ext/multistage'
-  require 'capistrano-jabber'
 
   ...
 
@@ -37,3 +36,6 @@ In your `deploy.rb`
 
   # defaults to 'talk.google.com'
   set :jabber_server, "jabber.server.com"
+
+  # require this gem after variables have been set
+  require 'capistrano-jabber'
