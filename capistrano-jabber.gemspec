@@ -11,5 +11,4 @@ Gem::Specification.new do |s|
   s.files       = ["lib/capistrano-jabber.rb"]
 
   s.add_dependency 'xmpp4r', '~> 1.3.4'
-  s.add_dependency 'capistrano-ext', '~> 1.2.1'
 end
