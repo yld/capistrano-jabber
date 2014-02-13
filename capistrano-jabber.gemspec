@@ -2,7 +2,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'capistrano-jabber'
-  s.version     = '0.1'
+  s.version     = '0.2'
   s.date        = '2013-03-09'
   s.summary     = "Make capistrano write to a jabber conference"
   s.description = ""
